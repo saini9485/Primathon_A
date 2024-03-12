@@ -32,7 +32,7 @@ background-color: brown;
 .home_second{
     flex-basis: 50%;
     background-color: rgb(10, 233, 222);
-     /* flex-shrink: 0; */
+     /* flex-shrink: 0;*/
 }
 .home_last{
     flex-basis: 25%;
