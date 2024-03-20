@@ -69,12 +69,11 @@ body {
   margin-top: 60px;
 }
 .home-left h1 {
-    margin-top: 30px;
+  margin-top: 30px;
   font-size: 44px;
   line-height: 73px;
   text-align: left;
-  color: #373737
-  
+  color: #373737;
 }
 .home-left h6 {
   font-size: 16px;
@@ -82,7 +81,7 @@ body {
   line-height: 24px;
   text-align: left;
   margin-top: 30px;
-  color: #7B7B7B;
+  color: #7b7b7b;
 }
 .home-left button {
   background: #ff5300;
@@ -109,12 +108,108 @@ body {
   margin-top: 30px;
 }
 
+/*Our Service*/
+
+.service-container {
+  display: flex;
+  width: 1170px;
+  height: 751px;
+  /* border: 1px solid black; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.service-content {
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+.service-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card {
+  width: 370px;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: #0000001a;
+}
+
 /*Media Query*/
 
-@media screen and (max-width:600px){
-    .home-right img {
-        width: 300px;
-        height: 300px;
-        margin-top: 10px;
-    }
+@media screen and (max-width: 600px) {
+  .home-right img {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+/*class Task */
+.home-page{
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  background-color: #FFF7F4;
+}
+.home-page-left h5 {
+  color: #ff5300;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.home-page-left h2 {
+  font-size: 39.06px;
+  font-weight: 600;
+  line-height: 58.59px;
+  text-align: left;
+  color: #373737;
+}
+.home-page-left h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #7b7b7b;
+}
+
+/* .icon-container {
+  display: flex;
+flex-direction: row;
+} */
+.home-page-left{
+  flex-basis: 50%;
+  margin-top: 30px;
+  /* border: 1px solid black; */
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: 2px;
+  color:#FF5300
+}
+
+.home-page-right{
+  flex-basis: 50%;
+}
+.home-page-right img{
+  width: 553px;
+  height: 470px;
+  margin-top: 30px;
+  /* border: 1px solid black; */
+
+}
+.icons{
+  display: flex;
+  padding-top: 10px;
 }
