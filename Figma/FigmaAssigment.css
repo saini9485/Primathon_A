@@ -321,29 +321,25 @@ left: 498px; */
   align-items: center;
 }
 .profile-icon h5 {
-  font-family: Poppins;
   font-size: 20px;
   font-weight: 500;
-  line-height: 30px;
-  text-align: left;
+  /* line-height: 30px; */
   color: #ff5300;
 }
 .profile-icon h7 {
   font-size: 12.8px;
   font-weight: 300;
-  line-height: 19.2px;
-  text-align: left;
+  /* line-height: 19.2px; */
   color: #7b7b7b;
 }
 
 .music-icon {
   display: flex;
-  justify-content: flex-end;
-  margin-left: 18%;
 }
 .music-icon img {
   width: 60px;
   height: 60px;
+  margin-left: 100%;
 }
 .right-arrow {
   display: flex;
